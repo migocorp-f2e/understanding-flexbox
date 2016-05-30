@@ -132,7 +132,11 @@
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-align-items-baseline.jpg)
 
 ---
+###TODO 請把白色框移動到畫面正中央
 
+[Todo](https://jsfiddle.net/justin3737/4uqcnb2s/1/)
+
+---
 ##Flex item 項目屬性
 ### order
 - order屬性是用来控制flex容器中flex項目的排列顺序。
@@ -183,15 +187,16 @@
 ###align-self
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-align-self.jpg)
 - 各自item的對齊
-- [CSS-TRICKS](https://css-tricks.com/almanac/properties/a/align-self/)
+- [DEMO-CSS-TRICKS](https://css-tricks.com/almanac/properties/a/align-self/)
 
 
+---
 
 ##學習有賺有賠 詳閱flexbox 公開說明書
 - [瀏覽器support](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#browser-support)
 - float，clear和vertical-align屬性應用在flex項目上將會無效
 
-
+---
 
 ## 資源 Resources
 [第一次用 CSS - Flexbox 就上手](http://andyyou.github.io/javascript/2015/09/09/understand-flexbox.html)
