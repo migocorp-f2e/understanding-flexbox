@@ -108,7 +108,7 @@
     - flex-start - 貼齊側軸的起始點 cross-start. (default)
     - flex-end - 貼齊側軸 cross-end 排列
     - center - 置放於側軸的中央
-    - baseline - item 會對齊 baseline
+    - baseline - item 按文本基線在flex容器側軸中排列。
     - stretch - 預設值, 自動把 item 的高長滿 container
 
 ``` css
@@ -123,7 +123,9 @@
 
 [demo - center](https://jsfiddle.net/justin3737/ak6raxtc/4/)
 
-[demo - baseline](https://jsfiddle.net/justin3737/ak6raxtc/5/)
+[demo - strrtch](https://jsfiddle.net/justin3737/erp69eau/)
+
+- baseline
 
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-align-items-baseline.jpg)
 
