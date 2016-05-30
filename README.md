@@ -28,6 +28,8 @@
 - main axis 與 cross axis
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/1-xo0yJQCryqinH2PhvVMwkw.png)
 
+---
+
 ## Flex container 容器屬性
 ###display (佈局)
 - 使用Flexbox布局只要在父容器元素上設置display屬性：
@@ -123,12 +125,13 @@
 
 [demo - center](https://jsfiddle.net/justin3737/ak6raxtc/4/)
 
-[demo - strrtch](https://jsfiddle.net/justin3737/erp69eau/)
+[demo - stretch](https://jsfiddle.net/justin3737/erp69eau/)
 
 - baseline
 
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-align-items-baseline.jpg)
 
+---
 
 ##Flex item 項目屬性
 ### order
@@ -146,11 +149,47 @@
 
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-flex-grow-2.jpg)
 
+###flex-basis
+- 這個屬性和width和height屬性相同，用來指定flex項目的大小。
+- 預設值 auto
+
+![](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-flex-basis.jpg)
+
+
+###flex-shrink
+- flex-shrink屬性用来指定flex項目缩小比例。
+- 在flex容器空間不足之下自動收缩。
+- 預設值 0
+- 預設情況下所有的項目都可以自動收縮, 但如果將他們設置為0時，他們不會缩小會保持原來的大小。
+- 注意：負數無效
+
+[demo - shrink](https://jsfiddle.net/justin3737/omdqeeob/)
+
+![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-flex-shrink.jpg)
+
+###flex
+- 這個屬性是flex-grow、flex-shrink和flex-basis屬性的簡寫
+- auto (1 1 auto)
+- non (0 0 auto)
+- 預設值 0 1 auto
+- *W3C鼓勵使用簡寫方式
+
+``` css
+.item {
+  flex: none | auto | [ <flex-grow> <flex-shrink>? || <flex-basis> ];
+}
+```
+
+###align-self
+![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flexbox-align-self.jpg)
+- 各自item的對齊
+- [CSS-TRICKS](https://css-tricks.com/almanac/properties/a/align-self/)
 
 
 
 ##學習有賺有賠 詳閱flexbox 公開說明書
 - [瀏覽器support](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#browser-support)
+- float，clear和vertical-align屬性應用在flex項目上將會無效
 
 
 
