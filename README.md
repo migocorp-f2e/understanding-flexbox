@@ -189,6 +189,12 @@
 - 各自item的對齊
 - [DEMO-CSS-TRICKS](https://css-tricks.com/almanac/properties/a/align-self/)
 
+---
+###TODO 請參考下圖佈局, 完成此範例
+
+![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/flex-todo.png)
+
+[TODO](https://jsfiddle.net/justin3737/z0tzm932/3/)
 
 ---
 
@@ -204,3 +210,5 @@
 [筆記：CSS3 Flexbox屬性](http://www.vialley.com/345/%E7%AD%86%E8%A8%98%EF%BC%9Acss3-flexbox%E5%B1%AC%E6%80%A7)
 
 [【前端攻略】最全面的水平垂直居中方案与flexbox布局](http://www.cnblogs.com/coco1s/p/4444383.html)
+
+[flexbox 青蛙遊戲](http://flexboxfroggy.com/#zh-tw)
