@@ -60,7 +60,7 @@
     - nowrap(default)
     - wrap
     - wrap-reverse
-- [demo](https://jsfiddle.net/justin3737/v57u1dLg/)
+- [demo](https://jsfiddle.net/justin3737/v57u1dLg/1/)
 
 ``` css
 .container{
@@ -79,7 +79,7 @@
 ###justify-content
 - 設定主軸的對齊方式
 - 這個屬性可以協助我們分配容器中扣除 item 的空間
-    - flex-start
+    - flex-start (default)
     - flex-end
     - center
     - space-around
@@ -93,9 +93,9 @@
 - [demo - center](https://jsfiddle.net/justin3737/trmfmryb/1/)
 
 - [demo - flex-start](https://jsfiddle.net/justin3737/trmfmryb/2/)
- 
+
 - [demo - space-between](https://jsfiddle.net/justin3737/trmfmryb/4/)
- 
+
 - [demo - space-around](https://jsfiddle.net/justin3737/trmfmryb/3/)
 
 
@@ -105,7 +105,7 @@
 - 這個屬性用來設定 item 該如何沿著側軸(cross axis)對齊排列
 - 把它想成用來處理垂直置中的屬性比較好記. 是指每個個別的 item 跟怎麼跟側軸對齊
 - 注意：這個屬性只有當flex容器有多行flex項目時才生效
-    - flex-start - 貼齊側軸的起始點 cross-start.
+    - flex-start - 貼齊側軸的起始點 cross-start. (default)
     - flex-end - 貼齊側軸 cross-end 排列
     - center - 置放於側軸的中央
     - baseline - item 會對齊 baseline
