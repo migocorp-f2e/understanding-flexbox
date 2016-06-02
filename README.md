@@ -185,7 +185,7 @@
 ###flex
 - 這個屬性是flex-grow、flex-shrink和flex-basis屬性的簡寫
 - auto (1 1 auto)
-- non (0 0 auto)
+- none (0 0 auto)
 - 預設值 0 1 auto
 - *W3C鼓勵使用簡寫方式
 
