@@ -28,15 +28,16 @@
 - main axis 與 cross axis
 ![image](https://raw.githubusercontent.com/migocorp-f2e/understanding-flexbox/master/resources/1-xo0yJQCryqinH2PhvVMwkw.png)
 
----
+-
 ## 心法
 
 
-####老爸(container)決定怎麼排(位置,方向,順序..)
-####兒子(item)決定怎麼長(大小, 身高)
+#####老爸(container)決定怎麼排(位置,方向..)
+#####兒子(item)決定怎麼長(大小, 身高, 順序..)
 
 
----
+-
+
 ## Flex container 容器屬性
 ###display (佈局)
 - 使用Flexbox布局只要在父容器元素上設置display屬性：
