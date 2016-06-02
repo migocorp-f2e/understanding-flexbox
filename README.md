@@ -215,7 +215,7 @@
 
 ---
 ##學習有賺有賠 詳閱flexbox 公開說明書
-- [瀏覽器support](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#browser-support)
+- [瀏覽器support](http://caniuse.com/#feat=flexbox)
 - float，clear和vertical-align屬性應用在flex項目上將會無效
 
 ---
@@ -228,3 +228,5 @@
 [【前端攻略】最全面的水平垂直居中方案与flexbox布局](http://www.cnblogs.com/coco1s/p/4444383.html)
 
 [flexbox 青蛙遊戲](http://flexboxfroggy.com/#zh-tw)
+
+[6個理由開始使用flexbox](https://bitsofco.de/6-reasons-to-start-using-flexbox/)
